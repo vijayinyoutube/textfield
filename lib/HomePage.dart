@@ -44,7 +44,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Icons.person,
             color: Colors.teal,
           ),
-          hintText: 'Enter your Name'));
+          hintText: 'Enter your Name',
+          hintStyle: TextStyle(color: Colors.teal)));
 
   Widget buildTextField2() => TextFormField(
         decoration: InputDecoration(
